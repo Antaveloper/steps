@@ -1,6 +1,19 @@
 # Git
 
 ## Configuration
+### Working with configuration
+You can simply edit the `.git\config` file
+
+locally:
+```
+git config --edit
+```
+
+globally:
+```
+git config --global --edit
+```
+
 ### Setting up name and email
 Check your name and email
 
@@ -24,7 +37,6 @@ git config user.name <your name>
 ```
 git config user.email <your email>
 ```
-Or you can simply edit the `.git\config` file
 
 ### Setting up main branch
 By default git initializes new repository with the main branch called `master`. To set up another name
@@ -44,3 +56,9 @@ Git push with option `-u` sets Github as the *upstream repository*, it means tha
 ```
 git push -u origin main
 ```
+
+### gh
+
+For Ubunty one needs a manual install of gh
+
+
