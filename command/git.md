@@ -75,3 +75,15 @@ git push -u origin main
 For Ubunty one needs a manual install of gh
 
 
+## Work with branches
+
+To open remote branch in case of multiple brances:
+
+```
+git fetch remote-name
+```
+then
+```
+git co branch_name
+```
+
